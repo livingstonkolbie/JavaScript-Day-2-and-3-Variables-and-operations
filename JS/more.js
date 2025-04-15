@@ -35,14 +35,43 @@ function displayAge() {
 // console.log("Global Age: ", age);
 // console.log(localAge); // << this does not work
 
-// Day 2 advanced problems
-// problem1
+// Day 2 ADAVANCED PROBS
+// ADV problem1
 
 let firstName = "kolbs";
 let age = 33;
 let isStudent = false;
 
+console.log("my name is ", firstName , "i am " , age , "and it is ", isStudent , "that i am a student.");
 console.log(firstName, age, isStudent);
+console.log(typeof firstName, typeof age, typeof isStudent);
+
+// ADV problem2
+
+function convertToFarenheit(celsius) {
+    const farenheit = (celsius * 9/5) + 32;
+    return farenheit;
+}
+
+const celsiusValue = 25;
+const result = convertToFarenheit(celsiusValue);
+
+console.log(`${celsiusValue}\u00B0C is equal to ${result}\u00B0F`);
+console.log(`Celcius input type: ${typeof celsiusValue}`);
+console.log(`Farenheit result type: ${typeof result}`);
+
+// ADV problem3
+
+let price1 = 30;
+let price2 = 20;
+let price3 = 10;
+
+let discountThreshold = 2;
+let discount = 5;
+
+let sum = price1 + price2 + price3;
+console.log(sum);
+
 
 // Day 3 
 // problem1
@@ -50,13 +79,13 @@ console.log(firstName, age, isStudent);
 let num1 = 10;
 let num2 = 5;
 
-let sum = num1 + num2;
+// let sum = num1 + num2;
 let difference = num1 - num2;
 let product = num1 * num2;
 let quotient = num1 / num2;
 let remainder = num1 % num2;
 
-console.log(sum, difference, product, quotient, remainder);
+// console.log(sum, difference, product, quotient, remainder);
 
 // problem2
 
@@ -75,6 +104,5 @@ let b = "10";
 console.log(a == b);
 console.log(a === b);
 console.log(a > 5 && a < 15); 
-
 
 
