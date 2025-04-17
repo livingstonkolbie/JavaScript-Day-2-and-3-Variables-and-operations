@@ -83,3 +83,66 @@ let bonusPercentage = 0.10;
 let deduction = 150;
 
 let bonusAmount = baseSalary * bonusPercentage;
+
+
+// Day 4: problem 1
+
+console.log("Day 4: Problem 1");
+
+let itemPrice = 20;
+let quantity = 1;
+let discount = 0.5;
+
+let subtotal = itemPrice * quantity;
+let discountAmount2 = subtotal * discount;
+let totalAmount = subtotal - discountAmount2;
+
+console.log("Subtotal: ", subtotal);
+console.log("Discount: ", discountAmount2);
+console.log("Total: ", totalAmount);
+
+// Day 4: problem 2
+//gotta comment out this problem to keep moving in the console
+
+console.log("Day 4: Problem 2 - commented out so i can continue in console");
+
+// let celsius = prompt("Enter Temperature in Celsius");
+// celsius = Number(celsius);
+// let fahrenheit = (celsius * 9/5) + 32;
+
+// this is a comment - you can write it all in a string like console.log(`${celsius}°C is ${fahrenheit}°F`); - this allows you to write everything in a string
+
+// console.log(celsius,"\u00B0C is", fahrenheit,"\u00B0F");
+// alert(celsius + "°C is " + fahrenheit + "°F");
+
+// Day 4: problem 3
+
+console.log("Day 4: problem 3");
+
+let num = 5;
+let str = "10";
+
+console.log("Sum: ", num + str); // concatenation
+console.log("Difference: ", num - str); // coersion mechanism makes it work
+console.log("Loosely equal?", num == str);
+console.log("Strictly equal?", num === str);
+
+// Day 4: problem 4
+
+console.log("Day 4: problem 4");
+
+let billAmount = 200;
+let tipRate = 0.15;
+let people = 3;
+
+let tipAmount = billAmount * tipRate; 
+let dinnerAmount = billAmount + tipAmount
+let eachPerson = dinnerAmount / people;
+
+console.log("Tip: $", tipAmount);
+console.log("Total with tip: $", dinnerAmount);
+console.log("Each person pays: $", eachPerson);
+
+// Day 4: problem 5
+
+console.log("Day 4: problem 5");
